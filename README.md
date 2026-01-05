@@ -47,6 +47,17 @@ GET `/trade/analyze/{sector}`
 ## HOW To USE
 
 ```bash
+# Clone the repository
+with HTTPS:
+git clone https://github.com/rajnagani31/Trade-Opportunity.git
+
+with SSH:
+git clone git@github.com:rajnagani31/Trade-Opportunity.git
+
+git checkout master
+
+
+```bash
 
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
