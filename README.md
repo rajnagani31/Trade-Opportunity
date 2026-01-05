@@ -14,7 +14,7 @@ trading or financial advice.
 ## Tech Stack
 - FastAPI
 - Python 3.10+
-- Openai API
+- Openai API(why use openai api: because I have paid plan and I can use function calling feature also)
 - Web Search API (OpenAI internal tool)
 - In-memory storage (no database)
 
@@ -40,6 +40,7 @@ GET `/trade/analyze/{sector}`
 - finance
 - energy
 - infrastructure
+- etc
 
 **Response:**
 - Structured markdown report
@@ -50,6 +51,8 @@ GET `/trade/analyze/{sector}`
 # Clone the repository
 with HTTPS:
 git clone https://github.com/rajnagani31/Trade-Opportunity.git
+
+OR
 
 with SSH:
 git clone git@github.com:rajnagani31/Trade-Opportunity.git
@@ -72,4 +75,4 @@ Swagger UI: http://localhost:8000/docs
 
 ReDoc: http://localhost:8000/redoc
 ```
-### Analyze Sector
+
